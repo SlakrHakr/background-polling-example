@@ -1,24 +1,5 @@
-# README
+# Background Polling Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Playing around with a concept of utilizing ActionCable and/or ActiveJob to poll
+a resource on the rails server and notify any clients listening only if the
+resource has changed.
